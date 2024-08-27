@@ -24,7 +24,6 @@ import {
   getPluginType,
   getSelectionText,
   isSelectionExpanded,
-  getPreventDefaultHandler,
   toggleMark,
   useEventPlateId,
   usePlateEditorState,
@@ -183,7 +182,7 @@ export const FormatToolbar = ({ setIsEditorFocused, isContextMenuVisible }: Form
 
     const onMouseDown = (e: any) => {
       if (editor) {
-        getPreventDefaultHandler(toggleMark, editor, { key: type, clear: '' })(e);
+        toggleMark(editor, { key: type, clear: '' });
       }
       window.electronAPI.capture({
         distinctId: session.user.id,
