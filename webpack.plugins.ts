@@ -4,10 +4,7 @@ import { EnvironmentPlugin } from 'webpack';
 
 export const plugins = [
   new ForkTsCheckerWebpackPlugin({
-    logger: {
-      infrastructure: 'webpack-infrastructure',
-      issues: 'console',
-    },
+    logger: 'webpack-infrastructure',
   }),
   new EnvironmentPlugin({
     ...dotenv.config().parsed, // <-- this line
