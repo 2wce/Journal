@@ -111,7 +111,7 @@
     "marked": "4.0.12",
     "match-sorter": "6.3.4",
     "nanoid": "5.0.7",
-    "next-mdx-remote": "^4.1.0",
+    "next-mdx-remote": "^5.0.0",
     "node-fetch": "3.3.2",
     "react": "18.3.1",
     "react-beautiful-dnd": "13.1.1",
