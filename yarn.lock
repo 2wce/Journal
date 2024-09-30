@@ -294,6 +294,13 @@
   dependencies:
     "@electron-forge/shared-types" "7.4.0"
 
+"@electron-forge/plugin-base@7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-base/-/plugin-base-7.5.0.tgz#f98bbe2d3d52c197fa7bf5c3fea0714776de4b0c"
+  integrity sha512-44AbXSb5lDY8uHIo0mJ91atOSWgxv3iuECk07/gDBiuMPX62dwHnLteEjQF4GBXJZTpnV7SxhD+d2AUBQmoojw==
+  dependencies:
+    "@electron-forge/shared-types" "7.5.0"
+
 "@electron-forge/plugin-fuses@7.4.0":
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/@electron-forge/plugin-fuses/-/plugin-fuses-7.4.0.tgz#3a3b78bf3c5d2b2d445825b05bce145d116df792"
@@ -302,15 +309,15 @@
     "@electron-forge/plugin-base" "7.4.0"
     "@electron-forge/shared-types" "7.4.0"
 
-"@electron-forge/plugin-webpack@7.4.0":
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-webpack/-/plugin-webpack-7.4.0.tgz#57e7dac928c1ff4b620b8367092cb7185858ba85"
-  integrity sha512-ziMSsLmN84Ki55jPOg2ei2pmqFzcB4xaX/lXiirGRj+o70M/EL6YQSuLNLRjdS/242oO8uvlmdp4uPEmYZmiCw==
+"@electron-forge/plugin-webpack@7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-webpack/-/plugin-webpack-7.5.0.tgz#0d59e9e410ba473459a7469b5c1166d0882278ee"
+  integrity sha512-0dDfT2sFY/acxN+OWc2gEXWg2unhERlIaBCwSbJH541EEs3yTkT3qAbi034yKO2SnYfumh6DYFxgC2+c6oaI4A==
   dependencies:
-    "@electron-forge/core-utils" "7.4.0"
-    "@electron-forge/plugin-base" "7.4.0"
-    "@electron-forge/shared-types" "7.4.0"
-    "@electron-forge/web-multi-logger" "7.4.0"
+    "@electron-forge/core-utils" "7.5.0"
+    "@electron-forge/plugin-base" "7.5.0"
+    "@electron-forge/shared-types" "7.5.0"
+    "@electron-forge/web-multi-logger" "7.5.0"
     chalk "^4.0.0"
     debug "^4.3.1"
     fast-glob "^3.2.7"
@@ -418,10 +425,10 @@
   dependencies:
     chrome-trace-event "^1.0.3"
 
-"@electron-forge/web-multi-logger@7.4.0":
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/@electron-forge/web-multi-logger/-/web-multi-logger-7.4.0.tgz#13df3a84827d07fc41f53e83b8af3a639be2a03d"
-  integrity sha512-XHKs37q4S8BzH1lTKhuOFO6k4R7XdrsZfox+qlp4HpiYKw8yq4rcasB0zUO5YKZ2aTJ1t79X1jxSJb5qhImdHA==
+"@electron-forge/web-multi-logger@7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/web-multi-logger/-/web-multi-logger-7.5.0.tgz#e573da8e79428b3d4d4dd5876deb3e5443bdac76"
+  integrity sha512-NE7Y9dPp67ipIbht8rCy10SeZweyw4GaQse0dykfxbTzcmPfnhvgDHPk4aqUW4S1249Chd6XI1PkLKnbTlTjxg==
   dependencies:
     express "^4.17.1"
     express-ws "^5.0.2"
