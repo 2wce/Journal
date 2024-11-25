@@ -7308,10 +7308,10 @@ markdown-it@14.1.0:
     punycode.js "^2.3.1"
     uc.micro "^2.1.0"
 
-marked@4.0.12:
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.12.tgz#2262a4e6fd1afd2f13557726238b69a48b982f7d"
-  integrity sha512-hgibXWrEDNBWgGiK18j/4lkS6ihTe9sxtV4Q1OQppb/0zzyPSzoFANBa5MfsG/zgsWklmNnhm0XACZOH/0HBiQ==
+marked@15.0.2:
+  version "15.0.2"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-15.0.2.tgz#e6f8c351554e05cfbe77fee5fa2d6116d361787b"
+  integrity sha512-85RUkoYKIVB21PbMKrnD6aCl9ws+XKEyhJNMbLn206NyD3jbBo7Ec7Wi4Jrsn4dV1a2ng7K/jfkmIN0DNoS41w==
 
 match-sorter@6.3.4:
   version "6.3.4"
